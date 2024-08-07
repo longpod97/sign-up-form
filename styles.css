@@ -1,0 +1,71 @@
+@font-face {
+    font-family: norse;
+    src: url(Fonts/Norse-Bold.otf);
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+#left-side {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    background-image: url(images/leaf-image.avif);
+    width: 40%;
+    height: 100vh;
+    background-size: cover;
+
+}
+
+#odin-text {
+    padding-top: 15px;
+}
+
+#logo-bar {
+    font-family: norse;
+    font-size: 80px;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+    
+    border: 1px solid black;
+    height: 150px;
+    width: 100%;
+    margin-top: 30%;
+    background-color: rgba(0, 0, 0, 0.593);
+    
+}
+
+#odin-logo {
+    height: 120px;
+    width: auto;
+}
+
+footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    align-content: flex-end;
+    margin-top: 75%;
+    color: rgb(113, 111, 108);
+}
+
+a {
+    color: rgb(113, 111, 108);
+}
+
+
+#right-side {
+   
+    display: flex;
+    border: 1px solid black;
+    background-color: rgb(240, 240, 240);
+
+}
