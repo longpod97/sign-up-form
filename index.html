@@ -20,7 +20,59 @@
     </div>
 
     <div id="right-side">
+        <div id="blurb">
+            <p>This is not a real online service! You know you need something like this in your life to help you realise your deepest dreams. Sign up <i>now</i> to get started.</p>
+            <p>You <i>know</i> you want to.</p>
+        </div>
 
+        <div id="form">
+            <p>Let's do this!</p>
+            
+            <form action="post" id="signup">
+
+                <div id="row1" class="row">
+                    <div class="item">
+                        <label for="first-name">First Name</label><br>
+                        <input type="text" name="first-name" id="first-name" class="text-input">
+                    </div>
+                    <div class="item2">
+                        <label for="last-name">Last Name</label><br>
+                        <input type="text" name="last-name" id="last-name" class="text-input">
+                    </div>
+
+                </div>
+
+                <div id="row2" class="row">
+                    <div class="item">
+                        <label for="email">Email</label><br>
+                        <input type="email" name="email" id="email" class="text-input">
+                    </div>
+                    <div class="item2">
+                        <label for="phone">Phone Number</label><br>
+                        <input type="number" name="phone" id="phone" class="text-input" minlength="10">
+                    </div>
+                </div>
+
+                <div id="row3" class="row">
+                    <div class="item">
+                        <label for="password">Password</label><br>
+                        <input type="password" name="password" id="password" class="text-input">
+                        <p id="match-password"></p>
+                    </div>
+                    <div class="item2">
+                        <label for="password-confirm">Confirm Password</label><br>
+                        <input type="password" name="password-confirm" id="password-confirm" class="text-input">
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+
+        <div id="submission">
+            <button form="signup">Create Account</button>
+            <p>Already have an account? <a href="">Log in</a></p>
+        </div>
     </div>
     
 </body>
